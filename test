@@ -9,12 +9,23 @@ function loop() {
 		;
 }
 
+function loopLong() {
+	var i = 2000000000;
+	while (i--)
+		;
+}
+
 measure(loop);
 // -> loop: 139 ms
+
+measure(loopLong);
+// -> loop: 139 ms
+
+function nothing() {}
 
 measure(Math.random);
 // TODO should work
 // -> random: 0.0012 ms
 
-
+measure(nothing);
 
