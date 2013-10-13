@@ -1,0 +1,24 @@
+{
+  "name": "basic-measure",
+  "version": "0.0.1",
+  "description": "Simplest way to measure time taken by a function",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anttisykari/basic-measure"
+  },
+  "keywords": [
+    "measure",
+    "performance",
+    "timer"
+  ],
+  "author": "Antti Sykäri",
+  "license": "BSD",
+  "gitHead": "da13357e8a4041b839e2a3505278d9fba12f0832"
+}
