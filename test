@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+// vim: set filetype=javascript:
+
+var measure = require('./index');
+
+function loop() {
+	var i = 100000000;
+	while (i--)
+		;
+}
+
+measure(loop);
+// -> loop: 139 ms
+
+measure(Math.random);
+// TODO should work
+// -> random: 0.0012 ms
+
+
+
